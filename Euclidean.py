@@ -1,4 +1,10 @@
-
+"""
+* author - ${USER}
+* date - ${11/23/2020}
+* time - ${3:30 pm}
+* package - ${PACKAGE_NAME}
+* Title - finding the distance between the two points
+"""
 import math
 import sys
 class EuclideanDistance:
