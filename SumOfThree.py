@@ -1,4 +1,10 @@
-
+"""
+* author - ${USER}
+* date - ${11/23/2020}
+* time - ${3:30 pm}
+* package - ${PACKAGE_NAME}
+* Title - sum of three integers which will be add to zero
+"""
     def sumToZero(array):
         length = len(array)
         for i in range(length - 2):
@@ -17,6 +23,7 @@ def Array():
             print('Exception Occured')
     array = []
     for idx in range(size):
+	#handling the exceptions
         while True:
             try:
                 number = int(input("Enter number to add in array: "))
@@ -26,7 +33,7 @@ def Array():
         array.append(number)
     return array
 
-
+#main metod
 if __name__ == "__main__":
     filledArray = Array()
     sumToZero(filledArray)
