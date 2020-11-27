@@ -1,3 +1,11 @@
+"""
+* author - ${USER}
+* date - ${11/23/2020}
+* time - ${3:30 pm}
+* package - ${PACKAGE_NAME}
+* Title - taking two input values at inpurt and finding the effective temperature will be
+"""
+
 import math
 
 class WindChill:
