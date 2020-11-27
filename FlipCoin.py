@@ -3,7 +3,7 @@
 * date - ${11/23/2020}
 * time - ${3:30 pm}
 * package - ${PACKAGE_NAME}
-* Title - Replace of Username by using User Input
+* Title - find percentage of head and tail count
 """
 
 
