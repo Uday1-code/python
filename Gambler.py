@@ -1,3 +1,11 @@
+
+"""
+* author - ${USER}
+* date - ${11/23/2020}
+* time - ${3:30 pm}
+* package - ${PACKAGE_NAME}
+* Title - finding the percentage of bet 
+"""
 import random
 
 
