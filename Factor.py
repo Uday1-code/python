@@ -3,11 +3,12 @@
 * date - ${11/23/2020}
 * time - ${3:30 pm}
 * package - ${PACKAGE_NAME}
-* Title - Replace of Username by using User Input
+* Title - Tacking input from user and printing its factorial numbers
 """
 
 import math
 class Factor :
+	#creating constructor
     def __init__(self):
         self.number = number
     def findPrimeFactor(n):
@@ -19,6 +20,7 @@ class Factor :
                     if n > 2:
                      print(int(n))
 
+#Main method
 if __name__ == "__main__":
     number = int(input("Enter the number: "))
     try:
