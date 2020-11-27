@@ -1,3 +1,12 @@
+"""
+* author - ${USER}
+* date - ${11/23/2020}
+* time - ${3:30 pm}
+* package - ${PACKAGE_NAME}
+* Title - creating a two dimensional array and storing values inside it.
+"""
+
+
 import matrix as matrix
 
 
@@ -5,10 +14,12 @@ class twoDimensional :
 
     def Parameters(self):
         while True :
+		#Exception handling
             try :
                 Rows= int(input("Number of rows:"))
                 Columns = int(input("Number of columns:"))
                 if(Rows or Columns < 0):
+		#asking to enter input values
                     print('enter greater values')
                     break
                     continue
@@ -33,7 +44,7 @@ class twoDimensional :
     def printArray(self):
         print(self.array)
 
-
+#main method
 if __name__ == "__main__":
     object = twoDimensional()
     object.Parameters()
