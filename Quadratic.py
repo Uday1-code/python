@@ -1,3 +1,10 @@
+"""
+* author - ${USER}
+* date - ${11/23/2020}
+* time - ${3:30 pm}
+* package - ${PACKAGE_NAME}
+* Title - Taking three input values and finding the roots of the equation
+"""
 import math
 
 class Quadratic:
@@ -14,11 +21,13 @@ class Quadratic:
         return abs(deltaValue)
 
     def calculateRoots(self):
+	#calulating the roots
         delta = (self.calculateDeltaValue())
         rootOne = (-self.coefficient_b + math.sqrt(delta)) / (2 * self.coefficient_a)
         rootTwo = (-self.coefficient_b - math.sqrt(delta)) / (2 * self.coefficient_a)
         return rootOne, rootTwo
 while True:
+	#handling the exceptions
     try:
         aValue = int(input("Enter the value for coefficient a: "))
         bValue = int(input("Enter the value for coefficient b: "))
@@ -27,7 +36,7 @@ while True:
     except ValueError:
         print("Enter valid integer")
 
-
+#Main method
 if __name__ == "__main__":
     quadratic = Quadratic(aValue, bValue, cValue)
     root1, root2 = quadratic.calculateRoots()
